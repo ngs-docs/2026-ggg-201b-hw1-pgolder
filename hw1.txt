@@ -1,0 +1,28 @@
+///Which variants are present in which samples?//
+Sample SRR2584403_1 has two intergenic SNV:
+1329520	T->G and 4141016	C->A
+
+Sample SRR2584404_1 has the same two SNVs noted above, in addition to a deletion at 
+806310 ATT -> AT and a SNV at 238917 G->T
+
+Sample SRR2584857_1 has 4 SNVs, none of which are found in the above listed files:
+920514	T->C; 3931002	A->C; 4141441	C->T; 4202391	T->G
+as well as an insertion from 4530778-4530779 AACCCT.
+
+SRR2584405_1 has 41 SNVs and 1 insertion, which all appear to be unique to that file. 
+It seems like a lot to list them here but I can if desired.
+
+
+//Which variants are shared between two or more samples?//
+1329520	T->G and 4141016	C->A are both in samples SRR2584403_1  and SRR2584404_1.
+
+
+//Are there any variants that stand out in terms of their likely biological impact?
+Name variants by location and give both the reference and sample alleles as in the VCF file.//
+
+238917 G->T is an upstream gene variant. There are 5 upstream gene variants and 15 
+downstream gene variants in SRR2584405_1. These are more likely to have biological impact,
+but are not as damning as a mutation within genes themselves, of which there are none.
+All others mutations identified here are intergenic and by convential thought are likely 
+to be not biologically significant (though I admittedly have some "hot takes" on noncoding DNA mutations).
+  
